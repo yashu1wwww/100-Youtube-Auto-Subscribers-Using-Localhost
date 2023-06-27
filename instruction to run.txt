@@ -1,0 +1,7 @@
+in my case chrome path start in link and replace your localhost path in second line after "
+
+cd C:\Program Files (x86)\Google\Chrome\Application
+chrome.exe --remote-debugging-port=9222 --user-data-dir="C:\Users\Hp\Desktop\sub\localhost"
+
+xpath to click subscribe button 
+driver.find_element_by_xpath('/html/body/ytd-app/div[1]/ytd-page-manager/ytd-browse/div[3]/ytd-c4-tabbed-header-renderer/tp-yt-app-header-layout/div/tp-yt-app-header/div[2]/div[3]/div/div[1]/div/div[2]/div[2]/ytd-subscribe-button-renderer/yt-smartimation/yt-button-shape').click()
