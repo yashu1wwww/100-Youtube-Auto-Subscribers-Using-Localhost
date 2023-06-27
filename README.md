@@ -23,7 +23,9 @@ to open Chrome with remote debugging enabled. In my case, the command was
 
 chrome.exe --remote-debugging-port=9222 --user-data-dir="C:\Users\Hp\Desktop\Bots\Chromedriver\Localhost"
 
-After opening Chrome, paste the following three lines of code from the script into the command prompt and hit enter. This will open the YouTube video URL in Chrome, automatically like it with multiple accounts, and switch between accounts to hit the likes.
+then new terminal in that folder and enter subscribe.py
+
+After opening Chrome, paste the following two lines of code from the script into the command prompt and hit enter. This will open the YouTube video URL in Chrome, automatically like it with multiple accounts, and switch between accounts to hit the likes.
 
 "You must login with your 10+ accounts, and each account must have 10+ brand accounts to hit auto-likes. replace the URL with the YouTube video URL in the urls.txt file.
 
