@@ -9,6 +9,12 @@
 
 ## "If you know proxy rotation, then please fork it".
 
+## For Creating Gmail Without Phone And Create Within 1 Minutes Use These 👇
+
+## Mobile Settings > Password & Accounts > Google > Choose to create an account at the bottom. When prompted, select "Myself," fill in the remaining details, and note that they won't ask for a phone number.
+
+## You can try these steps to create a Gmail account without providing a phone number.
+
 https://www.youtube.com/watch?v=FVumnHy5Tzo&t=1s&ab_channel=HelloWorld
 
 #Watch up to 3 minutes and 46 seconds, and then remain in the remaining part copying the part of the script and save it as l.py. The script is used to automatically like a particular YouTube video with multiple accounts
