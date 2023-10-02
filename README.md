@@ -9,6 +9,18 @@
 
 ## "If you know proxy rotation, then please fork it".
 
+## "If you want 1000 auto subscribers, follow these steps in Chrome settings:
+
+Click on the account logo near the top
+Go to 'Other profiles.'
+Click the '+ Add' button.
+Log in with 10 different Gmail accounts, with each Gmail account containing 10 brand accounts.
+Repeat this process for a total of 8 profiles, with each profile containing 10 emails (each email having 10 brand accounts).
+
+## Once you've set up the profiles, open each one and double-click on the Python (.py) file. That's it!"
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
 ## For Creating Gmail Without Phone And Create Within 1 Minutes Use These 👇
 
 ## Mobile Settings > Password & Accounts > Google > Choose to create an account at the bottom. When prompted, select "Myself," fill in the remaining details, and note that they won't ask for a phone number.
