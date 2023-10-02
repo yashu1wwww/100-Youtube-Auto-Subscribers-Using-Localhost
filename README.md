@@ -17,7 +17,7 @@ Click the '+ Add' button.
 Log in with 10 different Gmail accounts, with each Gmail account containing 10 brand accounts.
 Repeat this process for a total of 8 profiles, with each profile containing 10 emails (each email having 10 brand accounts).
 
-## Once you've set up the profiles, open each one and double-click on the Python (.py) file. That's it!"
+## Once you've set up the profiles, open each one and double-click on the Python (subscribe.py) file. That's it!"
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
 
