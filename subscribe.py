@@ -18,19 +18,19 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
 driver.find_element_by_xpath('/html/body/ytd-app/ytd-popup-container/tp-yt-iron-dropdown/div/ytd-multi-page-menu-renderer/div[3]/div[1]/yt-multi-page-menu-section-renderer[1]/div[2]/ytd-compact-link-renderer[3]/a').click() #click on switch account button.
-time.sleep(3) #brand start - 1
+time.sleep(3) #brand start - 1(1)
 driver.find_element_by_xpath('/html/body/ytd-app/ytd-popup-container/tp-yt-iron-dropdown/div/ytd-multi-page-menu-renderer/div[4]/ytd-multi-page-menu-renderer/div[3]/div[1]/ytd-account-section-list-renderer[1]/div[2]/ytd-account-item-section-renderer/div[2]/ytd-account-item-renderer[2]/tp-yt-paper-icon-item/div').click() #click on next channel.
 time.sleep(2)
 with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -42,7 +42,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -54,7 +54,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -66,7 +66,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -78,7 +78,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -90,7 +90,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -102,7 +102,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -114,7 +114,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -126,20 +126,20 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
 driver.find_element_by_xpath('/html/body/ytd-app/ytd-popup-container/tp-yt-iron-dropdown/div/ytd-multi-page-menu-renderer/div[3]/div[1]/yt-multi-page-menu-section-renderer[1]/div[2]/ytd-compact-link-renderer[3]/a').click() #click on switch account button.
 time.sleep(3) 
 driver.find_element_by_xpath('/html/body/ytd-app/ytd-popup-container/tp-yt-iron-dropdown/div/ytd-multi-page-menu-renderer/div[4]/ytd-multi-page-menu-renderer/div[3]/div[1]/ytd-account-section-list-renderer[2]/div[2]/ytd-account-item-section-renderer/div[2]/ytd-account-item-renderer[1]/tp-yt-paper-icon-item/div').click() #click on next channel.
-#brand - 2 start
+#brand - 2 start(2)
 time.sleep(2)
 with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -151,7 +151,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -163,7 +163,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -175,7 +175,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -187,7 +187,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -199,7 +199,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -211,7 +211,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -223,7 +223,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -235,33 +235,32 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
 driver.find_element_by_xpath('/html/body/ytd-app/ytd-popup-container/tp-yt-iron-dropdown/div/ytd-multi-page-menu-renderer/div[3]/div[1]/yt-multi-page-menu-section-renderer[1]/div[2]/ytd-compact-link-renderer[3]/a').click() #click on switch account button.
 time.sleep(3) 
 driver.find_element_by_xpath('/html/body/ytd-app/ytd-popup-container/tp-yt-iron-dropdown/div/ytd-multi-page-menu-renderer/div[4]/ytd-multi-page-menu-renderer/div[3]/div[1]/ytd-account-section-list-renderer[2]/div[2]/ytd-account-item-section-renderer/div[2]/ytd-account-item-renderer[10]/tp-yt-paper-icon-item/div').click() #click on next channel.
-#brand - 3
+#brand - 3 start(3)
 time.sleep(2)
 with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
 driver.find_element_by_xpath('/html/body/ytd-app/ytd-popup-container/tp-yt-iron-dropdown/div/ytd-multi-page-menu-renderer/div[3]/div[1]/yt-multi-page-menu-section-renderer[1]/div[2]/ytd-compact-link-renderer[3]/a').click() #click on switch account button.
 time.sleep(3) 
 driver.find_element_by_xpath('/html/body/ytd-app/ytd-popup-container/tp-yt-iron-dropdown/div/ytd-multi-page-menu-renderer/div[4]/ytd-multi-page-menu-renderer/div[3]/div[1]/ytd-account-section-list-renderer[3]/div[2]/ytd-account-item-section-renderer/div[2]/ytd-account-item-renderer[1]/tp-yt-paper-icon-item/div').click() #click on next channel.
-#brand - 2 start
 time.sleep(2)
 with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -273,7 +272,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -285,7 +284,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -297,7 +296,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -309,7 +308,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -321,7 +320,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -333,7 +332,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -345,7 +344,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -357,33 +356,32 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
 driver.find_element_by_xpath('/html/body/ytd-app/ytd-popup-container/tp-yt-iron-dropdown/div/ytd-multi-page-menu-renderer/div[3]/div[1]/yt-multi-page-menu-section-renderer[1]/div[2]/ytd-compact-link-renderer[3]/a').click() #click on switch account button.
 time.sleep(3) 
 driver.find_element_by_xpath('/html/body/ytd-app/ytd-popup-container/tp-yt-iron-dropdown/div/ytd-multi-page-menu-renderer/div[4]/ytd-multi-page-menu-renderer/div[3]/div[1]/ytd-account-section-list-renderer[3]/div[2]/ytd-account-item-section-renderer/div[2]/ytd-account-item-renderer[10]/tp-yt-paper-icon-item/div').click() #click on next channel.
-#brand-4
+#brand-4 start(4)
 time.sleep(2)
 with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
 driver.find_element_by_xpath('/html/body/ytd-app/ytd-popup-container/tp-yt-iron-dropdown/div/ytd-multi-page-menu-renderer/div[3]/div[1]/yt-multi-page-menu-section-renderer[1]/div[2]/ytd-compact-link-renderer[3]/a').click() #click on switch account button.
 time.sleep(3) 
 driver.find_element_by_xpath('/html/body/ytd-app/ytd-popup-container/tp-yt-iron-dropdown/div/ytd-multi-page-menu-renderer/div[4]/ytd-multi-page-menu-renderer/div[3]/div[1]/ytd-account-section-list-renderer[4]/div[2]/ytd-account-item-section-renderer/div[2]/ytd-account-item-renderer[1]/tp-yt-paper-icon-item/div').click() #click on next channel.
-#brand - 2 start
 time.sleep(2)
 with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -395,7 +393,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -407,7 +405,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -419,7 +417,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -431,7 +429,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -443,7 +441,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -455,7 +453,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -467,7 +465,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -479,33 +477,32 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
 driver.find_element_by_xpath('/html/body/ytd-app/ytd-popup-container/tp-yt-iron-dropdown/div/ytd-multi-page-menu-renderer/div[3]/div[1]/yt-multi-page-menu-section-renderer[1]/div[2]/ytd-compact-link-renderer[3]/a').click() #click on switch account button.
 time.sleep(3) 
 driver.find_element_by_xpath('/html/body/ytd-app/ytd-popup-container/tp-yt-iron-dropdown/div/ytd-multi-page-menu-renderer/div[4]/ytd-multi-page-menu-renderer/div[3]/div[1]/ytd-account-section-list-renderer[4]/div[2]/ytd-account-item-section-renderer/div[2]/ytd-account-item-renderer[10]/tp-yt-paper-icon-item/div').click() #click on next channel.
-#brand - 3
+#brand - 5 start(5)
 time.sleep(2)
 with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
 driver.find_element_by_xpath('/html/body/ytd-app/ytd-popup-container/tp-yt-iron-dropdown/div/ytd-multi-page-menu-renderer/div[3]/div[1]/yt-multi-page-menu-section-renderer[1]/div[2]/ytd-compact-link-renderer[3]/a').click() #click on switch account button.
 time.sleep(3) 
 driver.find_element_by_xpath('/html/body/ytd-app/ytd-popup-container/tp-yt-iron-dropdown/div/ytd-multi-page-menu-renderer/div[4]/ytd-multi-page-menu-renderer/div[3]/div[1]/ytd-account-section-list-renderer[5]/div[2]/ytd-account-item-section-renderer/div[2]/ytd-account-item-renderer[1]/tp-yt-paper-icon-item/div').click() #click on next channel.
-#brand - 5 start
 time.sleep(2)
 with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -517,7 +514,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -529,7 +526,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -541,7 +538,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -553,7 +550,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -565,7 +562,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -577,7 +574,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -589,7 +586,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -601,20 +598,20 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
 driver.find_element_by_xpath('/html/body/ytd-app/ytd-popup-container/tp-yt-iron-dropdown/div/ytd-multi-page-menu-renderer/div[3]/div[1]/yt-multi-page-menu-section-renderer[1]/div[2]/ytd-compact-link-renderer[3]/a').click() #click on switch account button.
 time.sleep(3) 
 driver.find_element_by_xpath('/html/body/ytd-app/ytd-popup-container/tp-yt-iron-dropdown/div/ytd-multi-page-menu-renderer/div[4]/ytd-multi-page-menu-renderer/div[3]/div[1]/ytd-account-section-list-renderer[5]/div[2]/ytd-account-item-section-renderer/div[2]/ytd-account-item-renderer[10]/tp-yt-paper-icon-item/div').click() #click on next channel.
-#brand-6
+#brand-6 start(6)
 time.sleep(2)
 with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -626,7 +623,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -638,7 +635,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -650,7 +647,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -662,7 +659,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -674,7 +671,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -686,7 +683,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -698,7 +695,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -710,7 +707,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -722,7 +719,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -734,20 +731,20 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
 driver.find_element_by_xpath('/html/body/ytd-app/ytd-popup-container/tp-yt-iron-dropdown/div/ytd-multi-page-menu-renderer/div[3]/div[1]/yt-multi-page-menu-section-renderer[1]/div[2]/ytd-compact-link-renderer[3]/a').click() #click on switch account button.
 time.sleep(3) 
 driver.find_element_by_xpath('/html/body/ytd-app/ytd-popup-container/tp-yt-iron-dropdown/div/ytd-multi-page-menu-renderer/div[4]/ytd-multi-page-menu-renderer/div[3]/div[1]/ytd-account-section-list-renderer[7]/div[2]/ytd-account-item-section-renderer/div[2]/ytd-account-item-renderer[1]/tp-yt-paper-icon-item/div').click() #click on next channel.
-#brand - 7 start
+#brand - 7 start(7)
 time.sleep(2)
 with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -759,7 +756,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -771,7 +768,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -783,7 +780,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -795,7 +792,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -807,7 +804,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -819,7 +816,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -831,7 +828,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -843,33 +840,32 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
 driver.find_element_by_xpath('/html/body/ytd-app/ytd-popup-container/tp-yt-iron-dropdown/div/ytd-multi-page-menu-renderer/div[3]/div[1]/yt-multi-page-menu-section-renderer[1]/div[2]/ytd-compact-link-renderer[3]/a').click() #click on switch account button.
 time.sleep(3) 
 driver.find_element_by_xpath('/html/body/ytd-app/ytd-popup-container/tp-yt-iron-dropdown/div/ytd-multi-page-menu-renderer/div[4]/ytd-multi-page-menu-renderer/div[3]/div[1]/ytd-account-section-list-renderer[7]/div[2]/ytd-account-item-section-renderer/div[2]/ytd-account-item-renderer[10]/tp-yt-paper-icon-item/div').click() #click on next channel.
-#brand - 3
 time.sleep(2)
 with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
 driver.find_element_by_xpath('/html/body/ytd-app/ytd-popup-container/tp-yt-iron-dropdown/div/ytd-multi-page-menu-renderer/div[3]/div[1]/yt-multi-page-menu-section-renderer[1]/div[2]/ytd-compact-link-renderer[3]/a').click() #click on switch account button.
 time.sleep(3) 
 driver.find_element_by_xpath('/html/body/ytd-app/ytd-popup-container/tp-yt-iron-dropdown/div/ytd-multi-page-menu-renderer/div[4]/ytd-multi-page-menu-renderer/div[3]/div[1]/ytd-account-section-list-renderer[8]/div[2]/ytd-account-item-section-renderer/div[2]/ytd-account-item-renderer[1]/tp-yt-paper-icon-item/div').click() #click on next channel.
-#brand - 8 start
+#brand - 8 start (8)
 time.sleep(2)
 with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -881,7 +877,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -893,7 +889,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -905,7 +901,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -917,7 +913,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -929,7 +925,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -941,7 +937,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -953,7 +949,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -965,33 +961,32 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
 driver.find_element_by_xpath('/html/body/ytd-app/ytd-popup-container/tp-yt-iron-dropdown/div/ytd-multi-page-menu-renderer/div[3]/div[1]/yt-multi-page-menu-section-renderer[1]/div[2]/ytd-compact-link-renderer[3]/a').click() #click on switch account button.
 time.sleep(3) 
 driver.find_element_by_xpath('/html/body/ytd-app/ytd-popup-container/tp-yt-iron-dropdown/div/ytd-multi-page-menu-renderer/div[4]/ytd-multi-page-menu-renderer/div[3]/div[1]/ytd-account-section-list-renderer[8]/div[2]/ytd-account-item-section-renderer/div[2]/ytd-account-item-renderer[10]/tp-yt-paper-icon-item/div').click() #click on next channel.
-#brand-4
 time.sleep(2)
 with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
 driver.find_element_by_xpath('/html/body/ytd-app/ytd-popup-container/tp-yt-iron-dropdown/div/ytd-multi-page-menu-renderer/div[3]/div[1]/yt-multi-page-menu-section-renderer[1]/div[2]/ytd-compact-link-renderer[3]/a').click() #click on switch account button.
 time.sleep(3) 
 driver.find_element_by_xpath('/html/body/ytd-app/ytd-popup-container/tp-yt-iron-dropdown/div/ytd-multi-page-menu-renderer/div[4]/ytd-multi-page-menu-renderer/div[3]/div[1]/ytd-account-section-list-renderer[9]/div[2]/ytd-account-item-section-renderer/div[2]/ytd-account-item-renderer[1]/tp-yt-paper-icon-item/div').click() #click on next channel.
-#brand - 9 start
+#brand - 9 start (9)
 time.sleep(2)
 with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -1003,7 +998,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -1015,7 +1010,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -1027,7 +1022,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -1039,7 +1034,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -1051,7 +1046,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -1063,7 +1058,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -1075,7 +1070,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -1087,33 +1082,32 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
 driver.find_element_by_xpath('/html/body/ytd-app/ytd-popup-container/tp-yt-iron-dropdown/div/ytd-multi-page-menu-renderer/div[3]/div[1]/yt-multi-page-menu-section-renderer[1]/div[2]/ytd-compact-link-renderer[3]/a').click() #click on switch account button.
 time.sleep(3) 
 driver.find_element_by_xpath('/html/body/ytd-app/ytd-popup-container/tp-yt-iron-dropdown/div/ytd-multi-page-menu-renderer/div[4]/ytd-multi-page-menu-renderer/div[3]/div[1]/ytd-account-section-list-renderer[9]/div[2]/ytd-account-item-section-renderer/div[2]/ytd-account-item-renderer[10]/tp-yt-paper-icon-item/div').click() #click on next channel.
-#brand - 3
 time.sleep(2)
 with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
 driver.find_element_by_xpath('/html/body/ytd-app/ytd-popup-container/tp-yt-iron-dropdown/div/ytd-multi-page-menu-renderer/div[3]/div[1]/yt-multi-page-menu-section-renderer[1]/div[2]/ytd-compact-link-renderer[3]/a').click() #click on switch account button.
 time.sleep(3) 
 driver.find_element_by_xpath('/html/body/ytd-app/ytd-popup-container/tp-yt-iron-dropdown/div/ytd-multi-page-menu-renderer/div[4]/ytd-multi-page-menu-renderer/div[3]/div[1]/ytd-account-section-list-renderer[10]/div[2]/ytd-account-item-section-renderer/div[2]/ytd-account-item-renderer[1]/tp-yt-paper-icon-item/div').click() #click on next channel.
-#brand - 10 start
+#brand - 10 start (10)
 time.sleep(2)
 with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -1125,7 +1119,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -1137,7 +1131,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -1149,7 +1143,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -1161,7 +1155,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -1173,7 +1167,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -1185,7 +1179,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -1197,7 +1191,7 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
@@ -1209,11 +1203,18 @@ with open("urls.txt") as f:
      for url in f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
-driver.find_element_by_css_selector('#subscribe-button > ytd-subscribe-button-renderer > yt-smartimation > yt-button-shape').click() #click on subscribe button. 
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
 time.sleep(3)
 driver.find_element_by_id("avatar-btn").click() #click on channel icon.
 time.sleep(3)
 driver.find_element_by_xpath('/html/body/ytd-app/ytd-popup-container/tp-yt-iron-dropdown/div/ytd-multi-page-menu-renderer/div[3]/div[1]/yt-multi-page-menu-section-renderer[1]/div[2]/ytd-compact-link-renderer[3]/a').click() #click on switch account button.
 time.sleep(3) 
 driver.find_element_by_xpath('/html/body/ytd-app/ytd-popup-container/tp-yt-iron-dropdown/div/ytd-multi-page-menu-renderer/div[4]/ytd-multi-page-menu-renderer/div[3]/div[1]/ytd-account-section-list-renderer[10]/div[2]/ytd-account-item-section-renderer/div[2]/ytd-account-item-renderer[10]/tp-yt-paper-icon-item/div').click() #click on next channel.
-#BE INFINITY.. 
+time.sleep(2)
+with open("urls.txt") as f:
+     for url in f:
+         driver.get(url)  #replace with url in urls text file
+time.sleep(5)
+driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
+#THE END..
+time.sleep(3)
