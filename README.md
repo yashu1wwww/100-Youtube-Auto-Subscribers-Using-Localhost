@@ -39,7 +39,7 @@ Finally, in the command prompt, enter "pip install Random" and hit enter to inst
 
 ## then copy the 'subcribe' button's XPath, CSS, or JavaScript path. Replace it in the code and press 'Ctrl+H' to find and replace the same element in the code.
 
-## "If you want 1000 auto subscribers, follow these steps in Chrome settings:
+## 👉 "If you want 1000 auto subscribers, follow these steps in Chrome settings:
 
 Click on the account logo near the top
 Go to 'Other profiles.'
