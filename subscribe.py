@@ -1216,5 +1216,4 @@ with open("urls.txt") as f:
          driver.get(url)  #replace with url in urls text file
 time.sleep(5)
 driver.execute_script('document.querySelector("#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill").click()') #click on sub button
-#THE END..
 time.sleep(3)
