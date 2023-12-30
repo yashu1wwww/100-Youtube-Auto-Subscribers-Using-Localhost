@@ -29,9 +29,9 @@ chrome.exe --remote-debugging-port=9222 --user-data-dir="C:\Users\Hp\Desktop\Bot
 
 # then open new terminal in that folder and enter subscribe.py
 
-After opening Chrome, paste the following two lines of code from the script into the command prompt and hit enter. This will open the YouTube video URL in Chrome, automatically like it with multiple accounts, and switch between accounts to hit the likes.
+After opening Chrome, paste the following two lines of code from the script into the command prompt and hit enter. This will open the YouTube channel url in Chrome, automatically hit subscribe, and switch between accounts to hit the auto subscribe.
 
-"You must login with your 10+ accounts, and each account must have 10+ brand accounts to hit auto-likes. replace the URL with the YouTube video URL in the urls.txt file.
+"You must login with your 10+ accounts, and each account must have 10+ brand accounts to hit auto-subscribe. replace the URL with the youtube channel url in 18th line...
 
 Finally, in the command prompt, enter "pip install Random" and hit enter to install the necessary library.
 
@@ -45,7 +45,7 @@ Click on the account logo near the top
 Go to 'Other profiles.'
 Click the '+ Add' button.
 Log in with 10 different Gmail accounts, with each Gmail account containing 10 brand accounts.
-Repeat this process for a total of 8 profiles, with each profile containing 10 emails (each email having 10 brand accounts).
+Repeat this process for a total of 9 profiles, with each profile containing 10 emails (each email must have 10 brand accounts).
 
 ## Once you've set up the profiles, open each one and double-click on the Python (subscribe.py) file. That's it!"
 
