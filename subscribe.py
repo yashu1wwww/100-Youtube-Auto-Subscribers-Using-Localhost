@@ -13,7 +13,7 @@ option.add_experimental_option("debuggerAddress","localhost:9222")
 
 driver = webdriver.Chrome(options=option)
 
-time.sleep(2)
+time.sleep(4)
 
 driver.get("https://www.youtube.com/@cricbuzz") #replace with your required url
          
