@@ -1,9 +1,6 @@
 # 100-Youtube-Auto-Subscribers-Using-Localhost
+
 100+ Youtube Non Stop Auto Subscribers using selenium with python on localhost
-
-## Couldn't find it on Google, so I created it
-
-𝙉𝙤𝙩𝙚:𝘿𝙞𝙙𝙣'𝙩 𝙘𝙤𝙥𝙮-𝙥𝙖𝙨𝙩𝙚 𝙘𝙤𝙙𝙚 𝙖𝙜𝙖𝙞𝙣 𝙖𝙣𝙙 𝙖𝙜𝙖𝙞𝙣 𝙎𝙤𝙢𝙚 𝘾𝙝𝙖𝙣𝙜𝙚𝙨 𝘼𝙧𝙚 𝙏𝙝𝙚𝙧𝙚.
 
 ## "If you know proxy rotation, then please fork it".
 
@@ -29,7 +26,7 @@ For example, in my case it is:
 
 chrome.exe --remote-debugging-port=9222 --user-data-dir="C:\Users\Hp\Desktop\Bots\Chromedriver\Localhost" (2nd line in cmd make sure you replace the localhost path)
 
-then again open new terminal in that folder enter l.py or double click on l.py
+# then again open new terminal in that folder enter subscribe.py or double click on subscribe.py
 
 After opening Chrome, paste the following two lines of code from the script into the command prompt and hit enter. This will open the YouTube channel url in Chrome, automatically hit subscribe, and switch between accounts to hit the auto subscribe.
 
