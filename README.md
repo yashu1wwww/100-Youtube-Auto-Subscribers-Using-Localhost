@@ -13,21 +13,23 @@ https://www.youtube.com/watch?v=FVumnHy5Tzo&t=1s&ab_channel=HelloWorld
 
 First, open Chrome file location and bypass the location restriction using an extension such as Touch VPN. In my case, the Chrome location(use start in: path) is
 
-C:\Program Files (x86)\Google\Chrome\Application
+C:\Users\Hp\AppData\Local\Google\Chrome\Application
 
-Next, in the command prompt, navigate to the Chrome directory using the command cd C:\Program Files (x86)\Google\Chrome\Application
+click window button and search cmd and enter
 
-Then,
+cd C:\Users\Hp\AppData\Local\Google\Chrome\Application (1st line in cmd)
 
-use the command
+in line enter
 
-chrome.exe --remote-debugging-port=9222 --user-data-dir="enter your localhost path here" 
+chrome.exe --remote-debugging-port=9222 --user-data-dir=""(in "enter your localhost path here")
 
-to open Chrome with remote debugging enabled. In my case, the command was
+Next, enter this command into the terminal, replacing "enter your localhost path here" with your localhost path:
 
-chrome.exe --remote-debugging-port=9222 --user-data-dir="C:\Users\Hp\Desktop\Bots\Chromedriver\Localhost"
+For example, in my case it is:
 
-# then open new terminal in that folder and enter subscribe.py
+chrome.exe --remote-debugging-port=9222 --user-data-dir="C:\Users\Hp\Desktop\Bots\Chromedriver\Localhost" (2nd line in cmd make sure you replace the localhost path)
+
+then again open new terminal in that folder enter l.py or double click on l.py
 
 After opening Chrome, paste the following two lines of code from the script into the command prompt and hit enter. This will open the YouTube channel url in Chrome, automatically hit subscribe, and switch between accounts to hit the auto subscribe.
 
