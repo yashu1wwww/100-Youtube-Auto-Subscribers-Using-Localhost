@@ -188,7 +188,6 @@ time.sleep(3)
 driver.find_element_by_xpath('/html/body/ytd-app/ytd-popup-container/tp-yt-iron-dropdown/div/ytd-multi-page-menu-renderer/div[4]/ytd-multi-page-menu-renderer/div[3]/div[1]/ytd-account-section-list-renderer[2]/div[2]/ytd-account-item-section-renderer/div[2]/ytd-account-item-renderer[10]/tp-yt-paper-icon-item').click() #click on next channel.
 
 #3rd Gmail - 3 start(3)
-
 time.sleep(4)
 driver.find_element_by_class_name("yt-subscribe-button-view-model-wiz").click() #click on sub button
 time.sleep(3)
@@ -280,7 +279,6 @@ time.sleep(3)
 driver.find_element_by_xpath('/html/body/ytd-app/ytd-popup-container/tp-yt-iron-dropdown/div/ytd-multi-page-menu-renderer/div[4]/ytd-multi-page-menu-renderer/div[3]/div[1]/ytd-account-section-list-renderer[3]/div[2]/ytd-account-item-section-renderer/div[2]/ytd-account-item-renderer[10]/tp-yt-paper-icon-item').click() #click on next channel.
 
 #4th Gmail-start(4)
-
 time.sleep(4)
 driver.find_element_by_class_name("yt-subscribe-button-view-model-wiz").click() #click on sub button
 time.sleep(3)
@@ -372,7 +370,6 @@ time.sleep(3)
 driver.find_element_by_xpath('/html/body/ytd-app/ytd-popup-container/tp-yt-iron-dropdown/div/ytd-multi-page-menu-renderer/div[4]/ytd-multi-page-menu-renderer/div[3]/div[1]/ytd-account-section-list-renderer[4]/div[2]/ytd-account-item-section-renderer/div[2]/ytd-account-item-renderer[10]/tp-yt-paper-icon-item').click() #click on next channel.
 
 #5th gmail - start(5)
-
 time.sleep(4)
 driver.find_element_by_class_name("yt-subscribe-button-view-model-wiz").click() #click on sub button
 time.sleep(3)
@@ -464,7 +461,6 @@ time.sleep(3)
 driver.find_element_by_xpath('/html/body/ytd-app/ytd-popup-container/tp-yt-iron-dropdown/div/ytd-multi-page-menu-renderer/div[4]/ytd-multi-page-menu-renderer/div[3]/div[1]/ytd-account-section-list-renderer[5]/div[2]/ytd-account-item-section-renderer/div[2]/ytd-account-item-renderer[10]/tp-yt-paper-icon-item').click() #click on next channel.
 
 #6th Gmail - start(6)
-
 time.sleep(4)
 driver.find_element_by_class_name("yt-subscribe-button-view-model-wiz").click() #click on sub button
 time.sleep(3)
@@ -565,7 +561,6 @@ time.sleep(3)
 driver.find_element_by_xpath('/html/body/ytd-app/ytd-popup-container/tp-yt-iron-dropdown/div/ytd-multi-page-menu-renderer/div[4]/ytd-multi-page-menu-renderer/div[3]/div[1]/ytd-account-section-list-renderer[7]/div[2]/ytd-account-item-section-renderer/div[2]/ytd-account-item-renderer[1]/tp-yt-paper-icon-item').click() #click on next channel.
 
 #7th Gmail - start(7)
-
 time.sleep(4)
 driver.find_element_by_class_name("yt-subscribe-button-view-model-wiz").click() #click on sub button
 time.sleep(3)
@@ -657,7 +652,6 @@ time.sleep(3)
 driver.find_element_by_xpath('/html/body/ytd-app/ytd-popup-container/tp-yt-iron-dropdown/div/ytd-multi-page-menu-renderer/div[4]/ytd-multi-page-menu-renderer/div[3]/div[1]/ytd-account-section-list-renderer[8]/div[2]/ytd-account-item-section-renderer/div[2]/ytd-account-item-renderer[1]/tp-yt-paper-icon-item').click() #click on next channel.
 
 #8th Gmail - start (8)
-
 time.sleep(4)
 driver.find_element_by_class_name("yt-subscribe-button-view-model-wiz").click() #click on sub button
 time.sleep(3)
@@ -748,8 +742,7 @@ driver.execute_script('document.querySelector("#items > ytd-compact-link-rendere
 time.sleep(3) 
 driver.find_element_by_xpath('/html/body/ytd-app/ytd-popup-container/tp-yt-iron-dropdown/div/ytd-multi-page-menu-renderer/div[4]/ytd-multi-page-menu-renderer/div[3]/div[1]/ytd-account-section-list-renderer[9]/div[2]/ytd-account-item-section-renderer/div[2]/ytd-account-item-renderer[1]/tp-yt-paper-icon-item').click() #click on next channel.
 
-#brand - 9 start (9)
-
+#9th gmail - 9 start (9)
 time.sleep(4)
 driver.find_element_by_class_name("yt-subscribe-button-view-model-wiz").click() #click on sub button
 time.sleep(3)
@@ -841,7 +834,6 @@ time.sleep(3)
 driver.find_element_by_xpath('/html/body/ytd-app/ytd-popup-container/tp-yt-iron-dropdown/div/ytd-multi-page-menu-renderer/div[4]/ytd-multi-page-menu-renderer/div[3]/div[1]/ytd-account-section-list-renderer[10]/div[2]/ytd-account-item-section-renderer/div[2]/ytd-account-item-renderer[1]/tp-yt-paper-icon-item').click() #click on next channel.
 
 #10th Gmail - 10 start (10)
-
 time.sleep(4)
 driver.find_element_by_class_name("yt-subscribe-button-view-model-wiz").click() #click on sub button
 time.sleep(3)
