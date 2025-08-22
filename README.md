@@ -39,9 +39,7 @@ After opening Chrome, paste the following two lines of code from the script into
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
 
-## 👉 Note:Every time YouTube updates the code, it varies. So, open the YouTube video, press 'Ctrl+Shift+C' to open the developer tools,
-
-## then copy the 'subcribe' button's XPath, CSS, or JavaScript path. Replace it in the code and press 'Ctrl+H' to find and replace the same element in the code.
+# 👉 Note:Every time YouTube updates its code, it may vary. So, open the YouTube video, press *Ctrl + Shift + C* to open Developer Tools, inspect the elements, find the updated paths, and modify accordingly
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
 
