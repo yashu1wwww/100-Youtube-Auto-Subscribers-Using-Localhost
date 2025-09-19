@@ -10,21 +10,23 @@ https://www.youtube.com/watch?v=FVumnHy5Tzo&t=1s&ab_channel=HelloWorld
 
 First, open Chrome file location and bypass the location restriction using an extension such as Touch VPN. In my case, the Chrome location(use start in: path) is
 
-C:\Users\Hp\AppData\Local\Google\Chrome\Application
+## C:\Users\Hp\AppData\Local\Google\Chrome\Application
 
 click window button and search cmd and enter
 
-cd C:\Users\Hp\AppData\Local\Google\Chrome\Application (1st line in cmd)
+cd 
+
+## C:\Users\Hp\AppData\Local\Google\Chrome\Application (1st line in cmd)
 
 in line enter
 
-chrome.exe --remote-debugging-port=9222 --user-data-dir=""(in "enter your localhost path here")
+## chrome.exe --remote-debugging-port=9222 --user-data-dir=""(in "enter your localhost path here")
 
 Next, enter this command into the terminal, replacing "enter your localhost path here" with your localhost path:
 
 For example, in my case it is:
 
-chrome.exe --remote-debugging-port=9222 --user-data-dir="C:\Users\Hp\Desktop\Bots\Chromedriver\Localhost" (2nd line in cmd make sure you replace the localhost path)
+## chrome.exe --remote-debugging-port=9222 --user-data-dir="C:\Users\Hp\Desktop\Bots\Chromedriver\Localhost" (2nd line in cmd make sure you replace the localhost path)
 
 # then again open new terminal in that folder enter
 
