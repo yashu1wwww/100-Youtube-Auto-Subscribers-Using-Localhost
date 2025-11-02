@@ -34,6 +34,9 @@ For example, in my case it is:
 
 after enter  subscribe.py or double click on subscribe.py
 
+# Add Ads Blocker Extension To Works Quickly..
+
+
 After opening Chrome, paste the following two lines of code from the script into the command prompt and hit enter. This will open the YouTube channel url in Chrome, automatically hit subscribe, and switch between accounts to hit the auto subscribe.
 
 "You must login with your 10+ accounts, and each account must have 10+ brand accounts to hit auto-subscribe. replace the URL with the youtube channel url in 16th line...
