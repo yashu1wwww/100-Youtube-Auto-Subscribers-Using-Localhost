@@ -13,7 +13,7 @@ option.add_experimental_option("debuggerAddress","localhost:9222")
 
 driver = webdriver.Chrome(options=option)
 time.sleep(4)
-driver.get("https://www.youtube.com/@cricbuzz") #replace with your required url
+driver.get("https://youtube.com/@akafortysevenn?si=JxVu862SEckZ-mRX") #replace with your required url
 time.sleep(5)
 driver.find_element_by_xpath("//div[text()='Subscribe']/ancestor::button").click() #click on sub button
 time.sleep(3)
@@ -917,4 +917,5 @@ time.sleep(4)
 driver.find_element_by_xpath("//div[text()='Subscribe']/ancestor::button").click() #click on sub button
 time.sleep(30)
 #end > 10th acc - each acc contain 10 brand accs
+
 
