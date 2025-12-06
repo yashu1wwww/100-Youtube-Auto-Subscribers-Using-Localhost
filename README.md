@@ -36,6 +36,7 @@ after enter  subscribe.py or double click on subscribe.py
 
 # Add Ads Blocker Extension To Works Quickly..
 
+https://shorturl.at/mtAER
 
 After opening Chrome, paste the following two lines of code from the script into the command prompt and hit enter. This will open the YouTube channel url in Chrome, automatically hit subscribe, and switch between accounts to hit the auto subscribe.
 
